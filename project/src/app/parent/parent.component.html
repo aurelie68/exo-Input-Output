@@ -1,0 +1,3 @@
+<div *ngFor="let person of profil; let i = index">
+    <app-enfant [person]="person" (remove)="removeCard(i)"></app-enfant>
+  </div>
